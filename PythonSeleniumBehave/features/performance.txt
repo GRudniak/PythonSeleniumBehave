@@ -1,0 +1,24 @@
+
+Videos page 0 load time 0.951110839844
+Videos page 4 load time 0.825692892075
+Datasets page 0 load time 0.521760940552
+
+Videos page 0 load time 1.1877849102
+Videos page 4 load time 0.881519079208
+Datasets page 0 load time 0.517805814743
+
+Videos page 0 load time 1.04723310471
+Videos page 4 load time 0.889440059662
+Datasets page 0 load time 0.509631156921
+
+Videos page 0 load time 1.01239204407
+Videos page 4 load time 0.91426897049
+Datasets page 0 load time 0.59961104393
+
+Videos page 0 load time 0.991902828217
+Videos page 4 load time 0.900447130203
+Datasets page 0 load time 0.490151166916
+
+Videos page 0 load time 1.03744697571
+Videos page 4 load time 0.913322925568
+Datasets page 0 load time 0.500320911407

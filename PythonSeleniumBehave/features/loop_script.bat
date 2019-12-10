@@ -1,0 +1,1 @@
+for i in {1..5}; do behave --no-capture performance.feature 2>&1 >log.txt; done

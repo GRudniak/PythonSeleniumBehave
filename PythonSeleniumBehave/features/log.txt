@@ -1,0 +1,25 @@
+Feature: Performance analysis # performance.feature:1
+
+  Scenario: Login to app       # performance.feature:3
+    Given I start the app      # steps/common_steps.py:1
+    When I see Welcome page    # steps/welcome_page_steps.py:1
+    Then I click Signin button # steps/welcome_page_steps.py:5
+    And I see Login page       # steps/login_steps.py:1
+    And I login to app         # steps/login_steps.py:6
+    Then I see Videos page     # steps/videos_page_steps.py:3
+
+  Scenario: Videos page performance                        # performance.feature:11
+    Then I navigate to Datasets page                       # steps/performance_steps.py:5
+    When I see Datasets page                               # steps/datasets_steps.py:3
+    Then I navigate to Videos page 0 and check load time   # steps/performance_steps.py:9
+Videos page 0 load time 1.03744697571
+    Then I navigate to Videos page "3"                     # steps/performance_steps.py:19
+    Then I navigate to Videos page 4 and check load time   # steps/performance_steps.py:23
+Videos page 4 load time 0.913322925568
+    Then I navigate to Datasets page 0 and check load time # steps/performance_steps.py:34
+Dataset page 0 load time 0.500320911407
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+12 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m21.988s
